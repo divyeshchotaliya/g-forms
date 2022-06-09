@@ -9,11 +9,15 @@
 3. Copy .env file
 
     ```cp .env.example .env```
+    
+4. Generate key
 
-3. Migration and seeder
+    ```php artisan key:generate```
+
+5. Migration and seeder
 
     ```php artisan migrate --seed```   
 
-4. To create an Admin, run this command
+6. To create an Admin, run this command
 
     ```php artisan db:seed --class=CreateAdminSeeder```
